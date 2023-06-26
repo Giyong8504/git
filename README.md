@@ -22,6 +22,7 @@ git config user.email "github 이메일 주소"
 cd C:\Users\KGY\study_java\자바\git
 git init 입력
 ```
+<br>
 
 ### 4. 원격 레포지토리 연결하기
 ![image](https://github.com/Giyong8504/git/assets/128211712/ba304c2f-243d-4db4-82c8-eaa539b38717)
@@ -30,22 +31,26 @@ git init 입력
 git remote add origin 원격 레포지토리 주소 : 원경 저장소(레포지토리) 주소 추가
 git remote set-url origin 원격 레포지토리 주소 : 기존 주소 변경
 ```
+<br>
 
 ### 5. 스테이징 단계
 ```
 git add 파일명, 파일경로
 git add . (모든파일)
 ```
+<br>
 
 ### 6. 스냅샷 단계 (commit) - 버전 기록 : 복구할 시점 만들기
 ```
 git commit -m "작업 내용 메모"
 ```
+<br>
 
 ### 7. 원격 저장소에 반영 ( 로컬 -> 원격 )
 ```
 git push origin 원격 브랜치명
 ```
+<br>
 
 ### 8. 로컬 저장소에 반영 ( 원격 -> 로컬 )
 -작업 전 확인하고 pull해서 코드 다운.
@@ -59,6 +64,8 @@ git clone 원격 저장소 주소
 ```
 
 ---------------
+<br>
+
 ## 브랜치
 -커밋로그
 ```
