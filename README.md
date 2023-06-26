@@ -17,10 +17,6 @@ git config user.email "github 이메일 주소"
 ```
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 ### 3. 로컬 레포지토리 생성
 ```
 cd C:\Users\KGY\study_java\자바\git
