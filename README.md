@@ -2,15 +2,25 @@
 -------------
 ### 1. 계정 연결 준비물
 -이메일 주소 : gitHub 가입 했던 이메일 주소
--사용자 이름 : kky5163
+-사용자 이름 : Giyong8504
 -폴더 경로 : C:\Users\KGY\study_java\자바\git
 
 
 ### 2. 로컬 레포지토리 생성
 ```
+cd C:\Users\KGY\study_java\자바\git
 git init 입력
 ```
 
+### 3. 계정 동기화
+```
+git config --global user.name "github 사용자 이름"
+git config --global user.email "github 이메일 주소"
+
+참고) 나만 쓰는 컴퓨터가 아닐 경우 -> --global 제거
+git config user.name "github 사용자 이름"
+git config user.email "github 이메일 주소"
+```
 
 
 cls는 작업내용 삭제
