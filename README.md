@@ -28,7 +28,7 @@ git config --unset --global user.email
 ### 3. 로컬 레포지토리 생성
 ```
 cd C:\Users\KGY\study_java\자바\git
-git init 입력
+git init
 ```
 <br>
 
