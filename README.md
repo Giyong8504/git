@@ -15,6 +15,8 @@ git config --global user.email "github 이메일 주소"
 git config user.name "github 사용자 이름"
 git config user.email "github 이메일 주소"
 ```
+<br>
+<br>
 
 ### 3. 로컬 레포지토리 생성
 ```
