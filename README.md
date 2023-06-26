@@ -15,6 +15,13 @@ git config --global user.email "github 이메일 주소"
 참고) 나만 쓰는 컴퓨터가 아닐 경우 -> --global 제거
 git config user.name "github 사용자 이름"
 git config user.email "github 이메일 주소"
+
+참고2) user 삭제
+git config --unset user.name
+git config --unset user.email
+
+git config --unset --global user.name
+git config --unset --global user.email
 ```
 <br>
 
