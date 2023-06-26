@@ -24,7 +24,7 @@ dir/w
 계정연결 설정
 	git config user.name "kky5163" 
 git config --global user.name "kky5163"  (나만쓸때 --global 사용.)
-git config --global user.email "kky5163@naver.com"
+git config --global user.email "kky5163@naver.com"	
 
 스냅샷 방식 
 
