@@ -1,13 +1,18 @@
 # git 사용방법
 -------------
-이메일 주소 : kky5163@naver.com
-사용자 이름 : kky5163
+## 1. 계정 연결 준비물
+-이메일 주소 : gitHub 가입 했던 이메일 주소
+-사용자 이름 : kky5163
+-폴더 경로 : C:\Users\KGY\study_java/git_exam
 
-C:\Users\KGY\study_java\자바\김기용\1. 웹기초\git_exam
-C:\Users\Administrator\Desktop\김기용\2.웹기초\git_exam
+## 2. 로컬 레포지토리 생성
+```
+git init 입력
+```
+
+
+
 cls는 작업내용 삭제
-
-형상관리 하기 위한
 
 ===========
 md git 폴더명
@@ -16,10 +21,6 @@ cd git 폴더명
 dir/w
 =====
 
-
-
-로컬 레포지토리 생성
-git init 입력
 
 
 계정을 동기화하기 위해 설정
