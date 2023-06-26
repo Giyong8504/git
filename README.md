@@ -3,7 +3,8 @@
 ### 1. 계정 연결 준비물
 -이메일 주소 : gitHub 가입 했던 이메일 주소
 -사용자 이름 : kky5163
--폴더 경로 : C:\Users\KGY\study_java/git_exam
+-폴더 경로 : C:\Users\KGY\study_java\자바\git
+
 
 ### 2. 로컬 레포지토리 생성
 ```
