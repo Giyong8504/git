@@ -78,6 +78,9 @@ git clone 원격 저장소 주소
 git log
 git log --oneline : 로그를 한줄로 짧게 확인
 ```
+![image](https://github.com/Giyong8504/git/assets/128211712/b0f2d476-8d0d-4451-96b8-4d7aaa111c39)
+- HEAD - master (현재 작업중인 branch)
+- origin/master (origin은 원격을 의미)
 <br>
 
 ### 2. 버전 관리
@@ -105,28 +108,10 @@ git merge 브랜치명 - 현재 브랜치에 브랜치명의 브랜치를 병합
 ```
 
 
-원격 레포지토리(원격 저장소)
- - 깃허브
- - 비트버킷
- - 깃랩
-
-
-
-
-sourcetree - GIT GUT 툴 (설치해보자)
-
-cls는 작업내용 삭제
-
-===========
-md git 폴더명
-cd git 폴더명
-=======
-dir/w
-=====
-
-
-
-
-
-5bd47c3 (HEAD -> test) 작업4 완료
-86add4e (origin/master, master) 작업3 완료  (원격에 반영하면 origin이 붙어있음)
+##### 참고) 명령어
+```
+cls : 작업내용 삭제
+cd 폴더명 : 경로이동
+cd .. : 이전 폴더이동
+dir/w : 해당 폴더 자료 확인
+```
