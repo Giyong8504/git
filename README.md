@@ -1,11 +1,13 @@
 # git 사용방법
 -------------
+
 ### 1. 계정 연결 준비물
--이메일 주소 : gitHub 가입 했던 이메일 주소
--사용자 이름 : Giyong8504
--폴더 경로 : C:\Users\KGY\study_java\자바\git
+- 이메일 주소 : gitHub 가입 했던 이메일 주소
+- 사용자 이름 : Giyong8504
+- 폴더 경로 : C:\Users\KGY\study_java\자바\git
 <br>
 <br>
+
 ### 2. 계정 동기화
 ```
 git config --global user.name "github 사용자 이름"
