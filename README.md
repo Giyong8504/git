@@ -6,13 +6,7 @@
 -폴더 경로 : C:\Users\KGY\study_java\자바\git
 
 
-### 2. 로컬 레포지토리 생성
-```
-cd C:\Users\KGY\study_java\자바\git
-git init 입력
-```
-
-### 3. 계정 동기화
+### 2. 계정 동기화
 ```
 git config --global user.name "github 사용자 이름"
 git config --global user.email "github 이메일 주소"
@@ -22,39 +16,56 @@ git config user.name "github 사용자 이름"
 git config user.email "github 이메일 주소"
 ```
 
+### 3. 로컬 레포지토리 생성
+```
+cd C:\Users\KGY\study_java\자바\git
+git init 입력
+```
 
-cls는 작업내용 삭제
+### 4. 원격 레포지토리 연결하기
+![image](https://github.com/Giyong8504/git/assets/128211712/ba304c2f-243d-4db4-82c8-eaa539b38717)
 
-===========
-md git 폴더명
-cd git 폴더명
-=======
-dir/w
-=====
+```
+git remote add origin 원격 레포지토리 주소 : 원경 저장소(레포지토리) 주소 추가
+git remote set-url origin 원격 레포지토리 주소 : 기존 주소 변경
+```
 
-
-
-계정을 동기화하기 위해 설정
-계정연결 설정
-	git config user.name "kky5163" 
-git config --global user.name "kky5163"  (나만쓸때 --global 사용.)
-git config --global user.email "kky5163@naver.com"	
-
-스냅샷 방식 
-
-스테이징 단계
+### 5. 스테이징 단계
+```
 git add 파일명, 파일경로
 git add . (모든파일)
+```
 
-스냅샷 단계 (커밋) - 버전 기록  -(사용하는 이유 복구할 시점 만들기)
+### 6. 스냅샷 단계 (commit) - 버전 기록 : 복구할 시점 만들기
+```
 git commit -m "작업 내용 메모"
+```
 
+### 7. 원격 저장소에 반영 ( 로컬 -> 원격 )
+```
+git push origin 원격 브랜치명
+```
 
-커밋로그
+### 8. 로컬 저장소에 반영 ( 원격 -> 로컬 )
+-작업 전 확인하고 pull해서 코드 다운.
+```
+git pull origin 원격 브랜치명
+```
+
+-참고) 원격 -> 로컬
+```
+git clone 원격 저장소 주소
+```
+
+---------------
+## 브랜치
+-커밋로그
+```
 git log
 git log --oneline : 로그를 한줄로 짧게 확인
+```
 
-버전 관리
+-버전 관리
 git checkout 커밋 ID
 git checkout - : 직전 단계로 복구
 
@@ -85,24 +96,17 @@ git merge 브랜치명 - 현재 브랜치에 브랜치명의 브랜치를 병합
 
 
 
-원격 레포지토리 연결하기
-git remote add origin 원격 레포지토리 주소   (주소 복사해서 cmd창에 오른쪽 마우스 클릭) : 원경 저장소(레포지토리) 주소 추가
-git remote set-url origin 원격 레포지토리 주소 : 기존 주소 변경 (잘못 입력하면 사용하자)
-
-
-로컬 저장소(레포지토리) 상태 -> 원격 저장소(레포지토리)에 반영
-git push origin 원격 브랜치명
-
-
-원격 저장소(레포지토리) 상태 -> 로컬 저장소(레포지토리)에 반영 (먼저 git pull을 해서 코드 다운)
-git pull origin 원격 브랜치명
-
-
-원격 저장소 -> 로컬 저장소 복사
-git clone 원격 저장소 주소
-
 
 sourcetree - GIT GUT 툴 (설치해보자)
+
+cls는 작업내용 삭제
+
+===========
+md git 폴더명
+cd git 폴더명
+=======
+dir/w
+=====
 
 
 
