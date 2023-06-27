@@ -36,7 +36,7 @@ git init
 ![image](https://github.com/Giyong8504/git/assets/128211712/ba304c2f-243d-4db4-82c8-eaa539b38717)
 
 ```
-git remote add origin 원격 레포지토리 주소 : 원경 저장소(레포지토리) 주소 추가
+git remote add origin 원격 레포지토리 주소 : 원격 저장소(레포지토리) 주소 추가
 git remote set-url origin 원격 레포지토리 주소 : 기존 주소 변경
 ```
 <br>
