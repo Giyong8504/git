@@ -98,6 +98,7 @@ git branch 브랜치명 : 현재 브랜치의 소스와 함께 브랜치가 생�
 git checkout 브랜치명 : 브랜치로 이동
 git branch -d 브랜치명 : 브랜치 삭제 
 	   -D 브랜치명 : 브랜치 강제 삭제 (위 에러시 안될 경우)
+git checkout -t origin/브랜치명 : 원격 브랜치 가져오기
 ```
 <br>
 
@@ -107,6 +108,11 @@ git branch -d 브랜치명 : 브랜치 삭제
 git merge 브랜치명 - 현재 브랜치에 브랜치명의 브랜치를 병합
 ```
 
+### 5. commit 되돌리기
+```
+git reset --soft HEAD~1 : 한칸 앞의 commit 으로 되돌리기
+git reset --soft HEAD~숫자 : 원하는 commit으로 되돌리기
+```
 
 ##### 참고) 명령어
 ```
