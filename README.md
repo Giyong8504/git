@@ -114,6 +114,17 @@ git reset --soft HEAD~1 : 한칸 앞의 commit 으로 되돌리기
 git reset --soft HEAD~숫자 : 원하는 commit으로 되돌리기
 ```
 
+### 6. 브랜치 최신화(master branch와 내 branch 병합)
+```
+git checkout master
+
+git pull
+
+git checkout [your-branch-name]
+
+git merge master
+```
+
 ##### 참고) 명령어
 ```
 cls : 작업내용 삭제
